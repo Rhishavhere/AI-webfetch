@@ -13,7 +13,6 @@ def scrape_website(website):
   driver.get(website)
   print("Page Loaded...")
   html = driver.page_source
-  time.sleep(10)
 
   return html
   
@@ -25,7 +24,7 @@ def extract_content(html_content):
     return str(body_content)
   return ""
 
-def clean_content(body_content)
+def clean_content(body_content):
   soup = BeautifulSoup(body_content, "html.parser")
 
   for tags in soup(["script", "style"]):
