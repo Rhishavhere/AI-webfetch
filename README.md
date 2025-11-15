@@ -32,10 +32,3 @@ WebTalk fetches, parses, and understands web data — so you can chat with the w
   - `fastapi` or `gradio` (optional) — for creating a chat interface
 
 ---
-
-## ⚙️ Installation
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/webtalk.git
-cd webtalk
